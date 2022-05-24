@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ /* =======================HOME SECTION START==================== */
+
+#home{
+  
+}
+
+#home .navbar{
+    
+}
+
+#home .content{
+    display: flex;
+    
+    
+    
+    
+}
+@media only screen and (max-width: 720px) {
+    #home .content{
+ 
+  display: flex;
+  flex-direction: column;
+    }
+    #home .content .contentcontainer{
+        margin-top: -60%;
+        PADDING-left: 15%;
+     
+       }
+       #home .content .contentcontainer a h1{
+padding-bottom: 1%;
+        }
+        #home .content .contentcontainer h3{
+            padding-bottom: 0.7%;
+                    }
+}
+#home .content .imgcontainer{
+    height: 100vh;
+    
+}
+
+#home .content .imgcontainer img{
+    height: 100%;
+    flex: 1;
+    padding: 100px;
+ }
+
+ #home .content .contentcontainer{
+ flex: 1;
+ align-items: center;
+ padding-top: 280px;
+ margin-left: 50px;
+ margin-right: 90px;
+ justify-self: baseline;
+}
+
+#home .content .contentcontainer a h1{
+   margin-bottom: -2.5%;
+   font-size: 3.5rem;
+   color: rgb(63, 7, 7);
+   text-decoration: none;
+    position: relative;
+    font-family: 'Bungee', cursive;
+   }
+   #home .content .contentcontainer a h1:hover{
+  cursor: pointer;
+    }
+    #home .content .contentcontainer a {
+        text-decoration: none;
+          }
+   #home .content .contentcontainer a h1::after{
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 4px;
+            left: 0;
+            bottom: 35px;
+            background-color: rgb(63, 7, 7);
+            transition: 0.5s;
+            
+
+    }
+#home .content .contentcontainer a h1:hover::after{
+      width: 38%;
+
+}
+
+#home .content .contentcontainer h3{
+    margin-bottom: 8px;
+    font-size: 2.5rem;
+    }  
+    #home .content .contentcontainer p{
+        
+        font-size: 1.5rem;
+        }  
+    
+
+        #home .content .contentcontainer button{
+            color: rgb(255, 255, 255);
+            border: none;
+            background-color: rgb(23, 56, 56);
+            /* border: 2px solid rgb(4, 44, 44); */
+            border-radius: 25px;
+            width: 200px;
+            cursor: pointer;
+            margin-top: 13px;
+            font-size: 1.5rem;
+            padding:10px 10px ;
+            /* position: relative; */
+            font-weight: bold;
+            /* z-index: -1; */
+            } #home .content .contentcontainer button:hover{
+         background-color: rgb(4, 31, 31);
+         color: white;
+        } 
+ /* #home .content .contentcontainer button span{
+         background-color:rgb(4, 44, 44);
+         width: 0;
+         position: absolute;
+        height: 100%;
+        left: 0%;
+        bottom: 0;
+        border-radius: 25px;
+        z-index: -1;
+        transition: 0.5s;
+        
+                }
+ #home .content .contentcontainer button:hover span{
+          width: 100%;
+          
+                           }
+#home .content .contentcontainer button:hover{
+    border: none;
+    color: rgb(238, 240, 240);
+     */
+}
+/* =======================HOME SECTION END==================== */
